@@ -10,6 +10,6 @@ Install
 2. Edit `~/.gitconfig` and add an `alias` section (if not already done).
 3. Insert the following alias (you can change ps to whatever you want):
 ```
-  ps = !git push && !sh push-it.sh
+  ps = !git push && sh push-it.sh
 ```
 4. Git push in style with `git ps`!
