@@ -14,15 +14,13 @@ Only works on OSX (uses the `afplay` command to play the clip)
 Install
 -------
 
-1. Do `./install.sh` (make sure the file is executable with `chmod a+x ./install.sh`).
+1. Edit your `~/.gitconfig` and add an `alias` section (if not already done).
 
-2. Edit your `~/.gitconfig` and add an `alias` section (if not already done).
+2. Insert the following git alias (you can change `ps` to whatever you want) (Replace /path/to with the directory you cloned this repo in):
 
-3. Insert the following git alias (you can change `ps` to whatever you want):
+        ps = !git push && sh /path/to/push-it.sh
 
-        ps = !git push && sh push-it.sh
-
-4. Git push in style with `git ps`!
+3. Git push in style with `git ps`!
 
 Sample `.gitconfig`
 -------------------
@@ -31,4 +29,4 @@ Sample `.gitconfig`
         st = status
         pl = pull
         cm = commit -am
-        ps = !git push && sh push-it.sh
+        ps = !git push && sh /path/to/push-it.sh

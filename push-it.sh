@@ -1,3 +1,4 @@
 #!/bin/sh
 
-afplay /etc/push-it/clip.wav
+BASEDIR=$(dirname $0)
+afplay $BASEDIR/clip.wav
