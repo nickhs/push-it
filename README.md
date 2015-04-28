@@ -16,7 +16,7 @@ Install
 
 1. Edit your `~/.gitconfig` and add an `alias` section (if not already done).
 
-2. Insert the following git alias (you can change `ps` to whatever you want) (Replace /path/to with the directory you cloned this repo in):
+2. Insert the following git alias (you can change `ps` to whatever you want) (Replace `/path/to` with the directory you cloned this repo in):
 
         ps = !git push && sh /path/to/push-it.sh
 
